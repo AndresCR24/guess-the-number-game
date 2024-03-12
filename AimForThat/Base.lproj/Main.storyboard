@@ -5,7 +5,6 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -111,8 +110,13 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                        <color key="backgroundColor" red="0.76859849691390991" green="0.63801204479534801" blue="0.45131022385427699" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
+                    <connections>
+                        <outlet property="labelPuntos" destination="ega-hp-mVu" id="T0G-RI-GeU"/>
+                        <outlet property="labelScore" destination="LOe-mC-qEy" id="KXA-PL-e4S"/>
+                        <outlet property="slider" destination="jsu-1s-pP0" id="lpk-4T-cJ0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -126,8 +130,5 @@
         <namedColor name="AccentColor">
             <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
-        <systemColor name="systemGreenColor">
-            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
     </resources>
 </document>
