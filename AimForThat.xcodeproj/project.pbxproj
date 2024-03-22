@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2243E00B2BA4C6F300CBD179 /* launchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2243E00A2BA4C6F300CBD179 /* launchScreen.xib */; };
 		22638F952BA0D68400DD1B58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22638F942BA0D68400DD1B58 /* AppDelegate.swift */; };
 		22638F972BA0D68400DD1B58 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22638F962BA0D68400DD1B58 /* SceneDelegate.swift */; };
 		22638F992BA0D68400DD1B58 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22638F982BA0D68400DD1B58 /* GameViewController.swift */; };
 		22638F9C2BA0D68400DD1B58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22638F9A2BA0D68400DD1B58 /* Main.storyboard */; };
 		22638F9E2BA0D68700DD1B58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22638F9D2BA0D68700DD1B58 /* Assets.xcassets */; };
-		22638FA12BA0D68700DD1B58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22638F9F2BA0D68700DD1B58 /* LaunchScreen.storyboard */; };
 		22638FAC2BA0D68700DD1B58 /* AimForThatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22638FAB2BA0D68700DD1B58 /* AimForThatTests.swift */; };
 		22638FB62BA0D68700DD1B58 /* AimForThatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22638FB52BA0D68700DD1B58 /* AimForThatUITests.swift */; };
 		22638FB82BA0D68700DD1B58 /* AimForThatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22638FB72BA0D68700DD1B58 /* AimForThatUITestsLaunchTests.swift */; };
 		22638FC52BA0FFDC00DD1B58 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 22638FC42BA0FFDC00DD1B58 /* .gitignore */; };
+		22638FC72BA2659600DD1B58 /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22638FC62BA2659600DD1B58 /* AboutUsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,13 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2243E00A2BA4C6F300CBD179 /* launchScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = launchScreen.xib; sourceTree = "<group>"; };
 		22638F912BA0D68400DD1B58 /* AimForThat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AimForThat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22638F942BA0D68400DD1B58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22638F962BA0D68400DD1B58 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		22638F982BA0D68400DD1B58 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		22638F9B2BA0D68400DD1B58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		22638F9D2BA0D68700DD1B58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		22638FA02BA0D68700DD1B58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22638FA22BA0D68700DD1B58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22638FA72BA0D68700DD1B58 /* AimForThatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AimForThatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22638FAB2BA0D68700DD1B58 /* AimForThatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AimForThatTests.swift; sourceTree = "<group>"; };
@@ -51,6 +52,7 @@
 		22638FB52BA0D68700DD1B58 /* AimForThatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AimForThatUITests.swift; sourceTree = "<group>"; };
 		22638FB72BA0D68700DD1B58 /* AimForThatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AimForThatUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		22638FC42BA0FFDC00DD1B58 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		22638FC62BA2659600DD1B58 /* AboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,9 +107,10 @@
 				22638F942BA0D68400DD1B58 /* AppDelegate.swift */,
 				22638F962BA0D68400DD1B58 /* SceneDelegate.swift */,
 				22638F982BA0D68400DD1B58 /* GameViewController.swift */,
+				2243E00A2BA4C6F300CBD179 /* launchScreen.xib */,
 				22638F9A2BA0D68400DD1B58 /* Main.storyboard */,
+				22638FC62BA2659600DD1B58 /* AboutUsViewController.swift */,
 				22638F9D2BA0D68700DD1B58 /* Assets.xcassets */,
-				22638F9F2BA0D68700DD1B58 /* LaunchScreen.storyboard */,
 				22638FA22BA0D68700DD1B58 /* Info.plist */,
 			);
 			path = AimForThat;
@@ -235,7 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22638FC52BA0FFDC00DD1B58 /* .gitignore in Resources */,
-				22638FA12BA0D68700DD1B58 /* LaunchScreen.storyboard in Resources */,
+				2243E00B2BA4C6F300CBD179 /* launchScreen.xib in Resources */,
 				22638F9E2BA0D68700DD1B58 /* Assets.xcassets in Resources */,
 				22638F9C2BA0D68400DD1B58 /* Main.storyboard in Resources */,
 			);
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22638FC72BA2659600DD1B58 /* AboutUsViewController.swift in Sources */,
 				22638F992BA0D68400DD1B58 /* GameViewController.swift in Sources */,
 				22638F952BA0D68400DD1B58 /* AppDelegate.swift in Sources */,
 				22638F972BA0D68400DD1B58 /* SceneDelegate.swift in Sources */,
@@ -307,14 +311,6 @@
 				22638F9B2BA0D68400DD1B58 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		22638F9F2BA0D68700DD1B58 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				22638FA02BA0D68700DD1B58 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -444,14 +440,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = U2YGJ53TDZ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AimForThat/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Adivina el valor";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = launchScreen.xib;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -471,14 +470,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = U2YGJ53TDZ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AimForThat/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Adivina el valor";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = launchScreen.xib;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="landscape" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="e35d62d6-d7d2-43ae-af92-5eba09eabf22" translatesAutoresizingMaskIntoConstraints="NO" id="DRI-C1-eUk">
+                    <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </imageView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="DRI-C1-eUk" secondAttribute="bottom" id="8fL-bX-5dk"/>
+                <constraint firstItem="DRI-C1-eUk" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Myt-pg-yLE"/>
+                <constraint firstAttribute="trailing" secondItem="DRI-C1-eUk" secondAttribute="trailing" id="UQg-2d-pU4"/>
+                <constraint firstItem="DRI-C1-eUk" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="hef-6G-CZ0"/>
+                <constraint firstItem="DRI-C1-eUk" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="ozM-h9-KeD"/>
+                <constraint firstItem="DRI-C1-eUk" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="pnk-sm-9Mr"/>
+            </constraints>
+            <point key="canvasLocation" x="66" y="21"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="e35d62d6-d7d2-43ae-af92-5eba09eabf22" width="256" height="256"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
